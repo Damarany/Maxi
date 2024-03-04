@@ -1,0 +1,187 @@
+body {
+  height: auto;
+}
+
+.myNav {
+  padding: 16px 40px;
+  transition: 0.3s all ease-in-out;
+}
+.myNav ul {
+  padding: 0 12px;
+}
+.myNav ul li {
+  padding: 0 10px;
+}
+.myNav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header {
+  background-image: url("../img/home-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 560px;
+  background-position: center center;
+}
+header .bg {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+header .content {
+  position: absolute;
+  bottom: 270px;
+  left: 0;
+  color: white;
+  z-index: 1000;
+  padding: 0 40px;
+}
+header .content p {
+  width: 40%;
+}
+@media only screen and (max-width: 700px) {
+  header .content {
+    bottom: 316px;
+  }
+  header .content p {
+    width: 80%;
+  }
+}
+
+.welcome {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  margin-top: 100px;
+}
+.welcome .img1 {
+  background-image: url(../img/design-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+.welcome .welcome-content {
+  padding-top: 20px;
+}
+.welcome .welcome-content h6 {
+  padding-top: 15px;
+}
+.welcome .welcome-content h2 {
+  padding-top: 15px;
+}
+.welcome .welcome-content h5 {
+  padding-top: 15px;
+}
+.welcome .welcome-content p {
+  padding-top: 15px;
+}
+.welcome .welcome-content button {
+  margin: 20px 0;
+}
+
+.offer {
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;
+}
+.offer .same {
+  margin-left: 3%;
+  margin-bottom: 5%;
+  border: 1px solid #ccc;
+  border-radius: 4%;
+  padding-left: 3%;
+}
+.offer .same i {
+  font-size: 2em;
+  margin-top: 3%;
+  color: green;
+}
+.offer .same button {
+  margin-bottom: 3%;
+}
+
+.projects {
+  height: 400px;
+  padding: 0;
+  margin: 10% 0;
+}
+.projects .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.projects .col-lg-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.projects .sub-project1 {
+  height: 400px;
+  background-image: url("../img/post-s-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.projects .sub-project2 {
+  height: 400px;
+  background-image: url("../img/post-s-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.projects .sub-project3 {
+  height: 400px;
+  background-image: url("../img/post-s-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.projects .sub-project4 {
+  height: 400px;
+  background-image: url("../img/post-s-4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.projects .project-bg {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  position: relative;
+}
+.projects .project-content {
+  position: absolute;
+  top: 143px;
+  left: 8%;
+  color: white;
+}
+
+footer {
+  background-color: #000;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-left: 9%;
+}
+footer h1 {
+  color: white;
+}
+footer p {
+  color: #ccc;
+}
+footer i {
+  color: white;
+  padding-left: 2%;
+}
+footer .last {
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+  color: white;
+}
+footer .last i {
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
